@@ -108,7 +108,7 @@ const CreateRoom = () => {
                   <div className="text-center">
                     <p className="text-sm text-muted-foreground mb-3">Your room code:</p>
                     <div className="flex items-center justify-center gap-2">
-                      <div className="font-display text-4xl font-bold tracking-widest gradient-primary bg-clip-text text-transparent">
+                      <div className="font-display text-4xl font-bold tracking-widest gradient-text-primary">
                         {roomCode}
                       </div>
                       <Button

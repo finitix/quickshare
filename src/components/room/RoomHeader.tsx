@@ -37,7 +37,7 @@ const RoomHeader = ({ roomCode, memberCount, isCreator, onCloseRoom }: RoomHeade
         <div className="space-y-1">
           <p className="text-sm text-muted-foreground">Room Code</p>
           <div className="flex items-center gap-2">
-            <span className="font-display text-2xl font-bold tracking-widest gradient-primary bg-clip-text text-transparent">
+            <span className="font-display text-2xl font-bold tracking-widest gradient-text-primary">
               {roomCode}
             </span>
             <Button variant="ghost" size="icon" onClick={handleCopy} className="h-8 w-8">

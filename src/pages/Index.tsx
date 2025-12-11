@@ -21,7 +21,7 @@ const Index = () => {
             <div className="max-w-3xl mx-auto text-center space-y-8 animate-slide-up">
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 Share Instantly,{" "}
-                <span className="bg-clip-text text-transparent gradient-hero">
+                <span className="gradient-text">
                   No Login Needed
                 </span>
               </h1>
